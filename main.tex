@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Written by Team Almond Melk:						%
+%	Alan David G. Pagalan								%
+%	Raymond Benedict C. Dardo							%
+%	Mel Isaac A. Mon								%
+% 	for the 5th Kibo Robot Programming Challenge			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%preamble
+\documentclass[12pt, letterpaper]{report} % the class of document, specifying fontsize and paper 
+
+\usepackage{color,soul} % enable highlighting parts of document
+
+\usepackage{graphicx} % enable insertion of images/graphics
+\graphicspath{{./images/}} %specify the path of the graphics
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath} % enable math environment %\usepackage[fleqn]{amsmath} to align equations to the left
+
+\usepackage[margin=1in]{geometry} %sets margin
+
+\usepackage{titlesec} % dictates how sections appear
+\titleformat{\chapter}{\large\centering\bfseries}{\thechapter}{10pt}{\large}{}
+\titlespacing*{\chapter} {0pt}{0pt}{12pt}
+\titleformat{\section}{\large\bfseries}{\thesection}{9pt}{\large}{}
+\titlespacing*{\chapter} {0pt}{0pt}{6pt}
+
+\usepackage{setspace} % spacing
+\doublespacing
+
+\usepackage{indentfirst} % indents the first line in a paragraph
+\setlength{\parindent}{30pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% title
+\input{content/a.titlepage}
+
+
+% frontmatter
+%\pagenumbering{roman}
+%\chapter*{Acknowledgment}
+%	\addcontentsline{toc}{chapter}{Acknowledgment}
+%	\input{}
+%\listoffigures
+%	\addcontentsline{toc}{chapter}{List of Figures}
+%\listoftables
+%	\addcontentsline{toc}{chapter}{List of Tables}
+%\cleardoublepage
+
+%mainmatter
+%\pagenumbering{arabic}
+%\tableofcontents
+
+%\chapter{Introduction}
+%	\input{}
+
+\end{document}
